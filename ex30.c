@@ -11,6 +11,7 @@ int regina(int x);
 int victor(int x);
 int raimundo(int x);
 int lsb(int x);
+int rfpdn(int x);
 
 int main(void)
 {
@@ -80,3 +81,9 @@ int lsb(int x)
 {
 	return x+2;
 }
+
+int rfpdn(int x)
+{
+	return x+1;
+}
+
