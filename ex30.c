@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+int renan(int x);
 int caio(int c);
 int rodrigo(int a);
 int calado(int k);
@@ -16,6 +17,7 @@ int renanamorim(int x);
 int main(void)
 {
 	int i=1;
+	i = renan(i);
 	i = nmrn(i);
 	i = wesley(i);
 	i = ruben(i);
@@ -86,3 +88,8 @@ int renanamorim(int x)
 {
 	return x+7;
 }
+int renan(int x)
+{
+	return x+21;
+}
+
