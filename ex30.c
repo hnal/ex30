@@ -27,47 +27,47 @@ int main(void)
 
 int calado(int k)
 {
-		return k+3;
+	return k+3;
 }
 
 int nmrn(int x)
 {	
-		return x-1;
+	return x-1;
 }
 
 int wesley(int x)//função wesley, recebe initeiro
 {
-		        return x*157; //retorna o numero inteiro de entrada multiplicado a 157
+	        return x*157; //retorna o numero inteiro de entrada multiplicado a 157
 }
 
 int vinicius(int x)
 {
-		return x=1;
+	return x=1;
 }
 
 int ruben(int x)
 {
-		return x+1;
+	return x+1;
 
 }
 
 int caio(int c)
 {
-		return c+10;
+	return c+10;
 }
 
 int rodrigo(int a)
 {
-		return a+6;
+	return a+6;
 }
 
 int regina(int x)
 {
-		return x+23;
+	return x+23;
 }
 int victor(int x)
 {
-		return x+x;
+	return x+x;
 }
 
 int raimundo(int x)
