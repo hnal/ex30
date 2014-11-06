@@ -11,6 +11,7 @@ int main(void)
 	i = nmrn(i);
 	i = wesley(i);
 	i = ruben(i);
+	i = calado(i); 
 	return 0;
 }
 
