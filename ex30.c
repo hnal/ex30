@@ -6,10 +6,11 @@ int ruben(int x);
 
 int main(void)
 {
-<<<<<<< HEAD
+	int i=1;
+	i = nmrn(i);
+	i = wesley(i);
+	i = ruben(i);
 	return 0;
-=======
-	;	
 }
 int nmrn(int x)
 {
