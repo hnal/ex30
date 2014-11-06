@@ -1,11 +1,18 @@
 #include <stdio.h>
+int nmrn(int x);
 
 int wesley(int x);//declaração da função Wesley entrada inteira x
 int ruben(int x);	
 
 int main(void)
 {
-	;
+	;	
+}
+int nmrn(int x)
+{
+	
+	return x-1;
+
 }
 
 int wesley(int x)//função wesley, recebe initeiro
