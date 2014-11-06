@@ -1,6 +1,6 @@
 #include <stdio.h>
-int nmrn(int x);
 
+int nmrn(int x);
 int wesley(int x);//declaração da função Wesley entrada inteira x
 int ruben(int x);	
 
@@ -12,6 +12,7 @@ int main(void)
 	i = ruben(i);
 	return 0;
 }
+
 int nmrn(int x)
 {
 	
@@ -30,3 +31,4 @@ int ruben(int x)
 {
 	return x+1;
 }
+
