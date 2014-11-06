@@ -8,6 +8,7 @@ int wesley(int x);//declaração da função Wesley entrada inteira x
 int ruben(int x);	
 int vinicius(int x);
 int regina(int x);
+int victor(int x);
 
 int main(void)
 {
@@ -62,4 +63,8 @@ int rodrigo(int a)
 int regina(int x)
 {
 	return x+23;
+}
+int victor(int x)
+{
+	return x+x;
 }
