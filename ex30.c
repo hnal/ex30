@@ -14,7 +14,10 @@ int main(void)
 	i = nmrn(i);
 	i = wesley(i);
 	i = ruben(i);
-	i = calado(i); 
+	i = calado(i);
+	i = caio(i);
+	i = rodrigo(i);
+	i = vinicius(i);
 	printf ("o prgrama termina aqui \n");
 	return 0;
 }
