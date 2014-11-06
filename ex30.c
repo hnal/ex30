@@ -29,6 +29,9 @@ int main(void)
 	i = vinicius(i);
 	i = mither(i);
 	i = renanamorim(i);
+	i = regina(i);
+	i = victor(i);
+	i = raimundo(i);
 	printf ("o prgrama termina aqui \n");
 	return 0;
 }
