@@ -15,6 +15,7 @@ int main(void)
 	i = wesley(i);
 	i = ruben(i);
 	i = calado(i); 
+	printf ("o prgrama termina aqui \n");
 	return 0;
 }
 
