@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+int calado(int k);
 int nmrn(int x);
 int wesley(int x);//declaração da função Wesley entrada inteira x
 int ruben(int x);	
@@ -15,12 +16,14 @@ int main(void)
 	return 0;
 }
 
-int nmrn(int x)
+int calado(int k)
 {
-	
-	return x-1;
+	return k+3;
+}
 
 
+
+int nmrn(int x)
 }
 
 int wesley(int x)//função wesley, recebe initeiro
@@ -38,4 +41,3 @@ int ruben(int x)
 {
 	return x+1;
 }
-
