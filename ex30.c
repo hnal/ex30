@@ -10,6 +10,7 @@ int vinicius(int x);
 int regina(int x);
 int victor(int x);
 int raimundo(int x);
+int mither(int x);
 
 int main(void)
 {
@@ -21,6 +22,7 @@ int main(void)
 	i = caio(i);
 	i = rodrigo(i);
 	i = vinicius(i);
+	i = mither(i);
 	printf ("o prgrama termina aqui \n");
 	return 0;
 }
@@ -74,3 +76,8 @@ int raimundo(int x)
 {
 	return x+1;
 }
+int mither(int x)
+{
+	return x * 8;
+}
+
