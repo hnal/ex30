@@ -20,11 +20,8 @@ int calado(int k)
 }
 
 int nmrn(int x)
-{
-	
+{	
 	return x-1;
-
-
 }
 
 int wesley(int x)//função wesley, recebe initeiro
