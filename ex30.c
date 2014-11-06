@@ -7,7 +7,11 @@ int ruben(int x);
 
 int main(void)
 {
-	;	
+	int i=1;
+	i = nmrn(i);
+	i = wesley(i);
+	i = ruben(i);
+	return 0;
 }
 
 int calado(int k)
@@ -19,6 +23,7 @@ int nmrn(int x)
 {
 	
 	return x-1;
+
 
 }
 
