@@ -12,6 +12,7 @@ int lsb(int x);
 
 int main(void)
 {
+{
 	int i=1;
 	i = nmrn(i);
 	i = wesley(i);
@@ -26,7 +27,7 @@ int calado(int k)
 }
 
 
-
+}
 int nmrn(int x)
 }
 
