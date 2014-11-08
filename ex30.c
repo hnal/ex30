@@ -15,6 +15,8 @@ int mither(int x);
 int renanamorim(int x);
 int colleto(int v);
 int lsb(int x);
+int lourenco(int x);
+
 int main(void)
 {
 	int i=1;
@@ -32,6 +34,7 @@ int main(void)
 	i = victor(i);
 	i = raimundo(i);
 	i = colleto(i);
+	i = lourenco(i);
 	
 	printf ("o prgrama termina aqui \n");
 	return 0;
@@ -106,3 +109,9 @@ int lsb(int x)
 }
 	return v+25;
 }
+
+int lourenco(int x)
+{
+	return x*10;
+}
+
