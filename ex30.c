@@ -37,7 +37,7 @@ int main(void)
 	i = colleto(i);
 	i = lourenco(i);
 	
-	printf ("Valor retornado: %d\n", i);
+	printf ("Valor calculado: %d\n", i);
 	return 0;
 }
 
@@ -61,10 +61,19 @@ int vinicius(int x)
 	return x=1;
 }
 
+/* --------------------------------------------------------------------------*/
+/**
+ * \brief Funcao do Ruben
+ *
+ * Funcao retorna x incrementado de 1
+ *
+ * \param x valor de entrada
+ *
+ * \return o sucessor de x
+ */
 int ruben(int x)
 {
 	return x+1;
-
 }
 
 int caio(int c)
@@ -74,21 +83,22 @@ int caio(int c)
 
 int rodrigo(int a)
 {
-		return a+6;
+	return a+6;
 }
 
 int regina(int x)
 {
-		return x+23;
+	return x+23;
 }
+
 int victor(int x)
 {
-		return x+x;
+	return x+x;
 }
 
 int raimundo(int x)
 {
-		return x+1;
+	return x+1;
 }
 int mither(int x)
 {
@@ -109,17 +119,16 @@ int colleto(int v)
 {
 	return v+25;
 }
+
 int lsb(int x)
 {
-	return x+2;
+	return x + 2;
 }
 
 int rfpdn(int x)
 {
 	return x+1;
 }
-
-
 
 int lourenco(int x)
 {
