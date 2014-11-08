@@ -37,7 +37,7 @@ int main(void)
 	i = colleto(i);
 	i = lourenco(i);
 	
-	printf ("o prgrama termina aqui \n");
+	printf ("Valor retornado: %d\n", i);
 	return 0;
 }
 
