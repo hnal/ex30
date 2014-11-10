@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+int jose(int x);
 int renan(int x);
 int caio(int c);
 int rodrigo(int a);
@@ -21,6 +22,7 @@ int lourenco(int x);
 int main(void)
 {
 	int i=1;
+	i = jose(i);
 	i = renan(i);
 	i = nmrn(i);
 	i = wesley(i);
@@ -39,6 +41,11 @@ int main(void)
 	
 	printf ("Valor calculado: %d\n", i);
 	return 0;
+}
+
+int jose(int x)
+{
+	return x*1423;
 }
 
 int calado(int k)
