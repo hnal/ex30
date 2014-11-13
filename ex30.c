@@ -18,6 +18,7 @@ int lsb(int x);
 int rfpdn(int x);
 int colleto(int v);
 int lourenco(int x);
+int maqc(int x);
 
 int main(void)
 {
@@ -142,3 +143,7 @@ int lourenco(int x)
 	return x*10;
 }
 
+int maqc(int x)
+{
+	return x*x;
+}
