@@ -20,6 +20,7 @@ int colleto(int v);
 int lourenco(int x);
 int maqc(int x);
 int campelo(int x);
+int rafael(int x);
 
 int main(void)
 {
@@ -40,7 +41,8 @@ int main(void)
 	i = raimundo(i);
 	i = colleto(i);
 	i = lourenco(i);
-	
+	i = rafael(i);
+
 	printf ("Valor calculado: %d\n", i);
 	return 0;
 }
@@ -152,4 +154,9 @@ int maqc(int x)
 int campelo(int x)
 {
 	return x+13;
+}
+
+int rafael(int x)
+{
+	return x+12;
 }
